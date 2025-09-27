@@ -241,31 +241,37 @@
                                     <ul class="list-unstyled categories-bars">
                                         <li>
                                             <div class="categories-bars-item">
-                                                <a href="#">Accessories</a>
+                                                <a href="#">Break Parts</a>
                                                 <span>(3)</span>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="categories-bars-item">
-                                                <a href="#">Electronics & Computer</a>
+                                                <a href="#">Suspension Parts</a>
                                                 <span>(5)</span>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="categories-bars-item">
-                                                <a href="#">Laptops & Desktops</a>
+                                                <a href="#">Engine Parts</a>
                                                 <span>(2)</span>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="categories-bars-item">
-                                                <a href="#">Mobiles & Tablets</a>
+                                                <a href="#">Engine Oil And Other Fluids</a>
                                                 <span>(8)</span>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="categories-bars-item">
-                                                <a href="#">MotorPart & Smart TV</a>
+                                                <a href="#">Filters</a>
+                                                <span>(5)</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="categories-bars-item">
+                                                <a href="#">Auto Care Products</a>
                                                 <span>(5)</span>
                                             </div>
                                         </li>
