@@ -30,7 +30,7 @@ return new class extends Migration
             // 💰 Pricing
             $table->decimal('price', 10, 2);                // Selling price
             $table->decimal('discount_price', 10, 2)->nullable(); // Optional discount price
-            $table->string('currency', 10)->default('USD'); // Currency
+            $table->string('currency', 10)->default('CFD'); // Currency
 
             // 📦 Inventory
             $table->integer('stock_quantity')->default(0);  // How many available
