@@ -55,15 +55,14 @@ class ProductForm
                     ->disk('public'), // 👈 ensures public URLs
 
                 TextInput::make('price')
-                    ->numeric()
-                    ->required(),
+                    ->numeric(),
 
                 TextInput::make('discount_price')
                     ->numeric()
                     ->nullable(),
 
                 TextInput::make('currency')
-                    ->default('USD'),
+                    ->default('CFD'),
 
                 TextInput::make('stock_quantity')
                     ->numeric()

@@ -24,7 +24,7 @@ class ProductsTable
                 TextColumn::make('name')->searchable()->sortable(),
                 TextColumn::make('brand')->sortable(),
                 TextColumn::make('category')->sortable(),
-                TextColumn::make('price')->money('USD')->sortable(),
+                TextColumn::make('price')->money('CFD')->sortable(),
                 TextColumn::make('stock_quantity')->sortable(),
                 IconColumn::make('is_available')->boolean(),
                 IconColumn::make('is_featured')->boolean(),
