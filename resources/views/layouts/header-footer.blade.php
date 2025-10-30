@@ -60,12 +60,12 @@
             </div>
             <div class="col-lg-4 text-center d-flex align-items-center justify-content-center">
                 <small class="text-dark">Call Us:</small>
-                <a href="#" class="text-muted">(+225) 0587 7662</a>
+                <a href="tel:+2250789199780" class="text-muted">(+225) 078-919-9780</a>
             </div>
 
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <div class="dropdown">
+                    <!-- <div class="dropdown">
                         <a href="#" class="dropdown-toggle text-muted me-2" data-bs-toggle="dropdown"><small>
                                 USD</small></a>
                         <div class="dropdown-menu rounded">
@@ -74,7 +74,7 @@
                             <a href="#" class="dropdown-item"> NGN</a>
                             <a href="#" class="dropdown-item"> CFA</a>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="dropdown">
                         <a href="#" class="dropdown-toggle text-muted mx-2" data-bs-toggle="dropdown"><small>
                                 English</small></a>
@@ -83,7 +83,7 @@
                             <a href="#" class="dropdown-item"> French</a>
                         </div>
                     </div>
-                    <div class="dropdown">
+                    <!-- <div class="dropdown">
                         <a href="#" class="dropdown-toggle text-muted ms-2" data-bs-toggle="dropdown"><small><i
                                     class="fa fa-home me-2"></i> My Dashboard</small></a>
                         <div class="dropdown-menu rounded">
@@ -95,7 +95,7 @@
                             <a href="#" class="dropdown-item"> My Account</a>
                             <a href="#" class="dropdown-item"> Log Out</a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -129,7 +129,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 col-lg-3 text-center text-lg-end">
+            <!-- <div class="col-md-4 col-lg-3 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center">
                     <a href="#" class="text-muted d-flex align-items-center justify-content-center me-3">
                         <span class="rounded-circle btn-md-square border"><i class="fas fa-random"></i>
@@ -147,7 +147,9 @@
                         <span class="text-dark ms-2">$0.00</span>
                     </a>
                 </div>
-            </div>
+            </div> -->
+
+
         </div>
     </div>
     <!-- Topbar End -->
@@ -279,8 +281,8 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="" class="btn btn-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0"><i
-                                class="fa fa-mobile-alt me-2"></i> (+225) 0587 7662</a>
+                        <a href="tel:+2250789199780" class="btn btn-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0"><i
+                                class="fa fa-mobile-alt me-2"></i> (+225) 078-919-9780</a>
                     </div>
                 </nav>
             </div>
@@ -329,7 +331,7 @@
                         </div>
                         <div>
                             <h4 class="text-white">Telephone</h4>
-                            <p class="mb-2">(+225) 0587 7662</p>
+                            <p class="mb-2">(+225) 078-919-9780</p>
                         </div>
                     </div>
                 </div>
@@ -341,7 +343,7 @@
                         </div>
                         <div>
                             <h4 class="text-white">wizzyautos.com</h4>
-                            <p class="mb-2">(+225) 0587 7662</p>
+                            <p class="mb-2">(+225) 078-919-9780</p>
                         </div>
                     </div>
                 </div>
@@ -365,36 +367,46 @@
                     <div class="footer-item d-flex flex-column">
                         <h4 class="text-primary mb-4">Customer Service</h4>
                         <a href="{{ route('contact') }}" class=""><i class="fas fa-angle-right me-2"></i> Contact Us</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Returns</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Order History</a>
+
+                        <!-- <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Returns</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Order History</a> -->
+
                         <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Site Map</a>
                         <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Testimonials</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> My Account</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Unsubscribe Notification</a>
+                        <!-- <a href="#" class=""><i class="fas fa-angle-right me-2"></i> My Account</a>, -->
+
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item d-flex flex-column">
                         <h4 class="text-primary mb-4">Information</h4>
                         <a href="#" class=""><i class="fas fa-angle-right me-2"></i> About Us</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Delivery infomation</a>
+
+                        <!-- <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Delivery infomation</a> -->
+
                         <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
                         <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Warranty</a>
+                        <!-- <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Warranty</a> -->
                         <a href="#" class=""><i class="fas fa-angle-right me-2"></i> FAQ</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Seller Login</a>
+
+                        <!-- <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Seller Login</a> -->
+
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item d-flex flex-column">
                         <h4 class="text-primary mb-4">Extras</h4>
                         <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Brands</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Gift Vouchers</a>
+
+                        <!-- <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Gift Vouchers</a> -->
+
                         <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Affiliates</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Wishlist</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Order History</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Track Your Order</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Track Your Order</a>
+
+                        <!-- <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Wishlist</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Order History</a> -->
+
+                        <!-- <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Track Your Order</a> -->
+
                     </div>
                 </div>
             </div>

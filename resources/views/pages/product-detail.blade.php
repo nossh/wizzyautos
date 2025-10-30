@@ -233,6 +233,17 @@
                 </div>
                 <div class="col-lg-7 col-xl-9 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="row g-4 single-product">
+
+                        @if($product->gallery)
+                            <div class="mt-4 grid grid-cols-4 gap-2">
+                                @foreach ($product->gallery as $image)
+                                    <img src="{{ asset('storage/' . $image) }}" 
+                                         alt="Gallery Image" 
+                                         class="h-20 w-full object-cover rounded-md border">
+                                @endforeach
+                            </div>
+                        @endif
+                        
                         <div class="col-xl-6">
                             <div class="single-carousel owl-carousel">
                                 <div class="single-item"

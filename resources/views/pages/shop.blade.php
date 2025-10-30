@@ -251,10 +251,10 @@
                                     <i class="fa fa-star text-secondary"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                                <div class="d-flex mb-2">
+                                <!-- <div class="d-flex mb-2">
                                     <h5 class="fw-bold me-2">${{ number_format($product->discount_price, 2) }}</h5>
                                     <h5 class="text-danger text-decoration-line-through">${{ number_format($product->price, 2) }}</h5>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     @endforeach
@@ -361,16 +361,22 @@
                                             <div class="text-center rounded-bottom p-4">
                                                 <a href="#" class="d-block mb-2">{{ $product->category }}</a>
                                                 <a href="{{ route('product-detail', $product->id) }}" class="d-block h4">{{ $product->name }}</a>
-                                                <del class="me-2 fs-5">${{ number_format($product->price, 2) }}</del>
-                                                <span class="text-primary fs-5">${{ number_format($product->discount_price, 2) }}</span>
+                                                <!-- <del class="me-2 fs-5">${{ number_format($product->price, 2) }}</del>
+                                                <span class="text-primary fs-5">${{ number_format($product->discount_price, 2) }}</span> -->
                                             </div>
                                         </div>
                                         <div
                                             class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
-                                            <a href="#"
-                                                class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                            <div class="d-flex justify-content-between align-items-center">
+
+                                            <!-- <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4">
+                                                <i class="fas fa-shopping-cart me-2"></i> Add To Cart
+                                            </a> -->
+
+                                            <a href="tel:+2250789199780" class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4">
+                                                <i class="fas fa-phone me-2"></i>Call us now
+                                            </a>
+
+                                            <!-- <div class="d-flex justify-content-between align-items-center">
                                                 <div class="d-flex">
                                                     <i class="fas fa-star text-primary"></i>
                                                     <i class="fas fa-star text-primary"></i>
@@ -390,7 +396,8 @@
                                                         </span>
                                                     </a>
                                                 </div>
-                                            </div>
+                                            </div> -->
+
                                         </div>
                                     </div>
                                 </div>
@@ -498,7 +505,7 @@
                             <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center rounded p-4"
                                 style="background: rgba(255, 255, 255, 0.5);">
                                 <h3 class="display-5 text-primary">Ride Smooth. <br> <span>Drive Secure.</span></h3>
-                                <p class="fs-4 text-muted">$899.99</p>
+                                <!-- <p class="fs-4 text-muted">$899.99</p> -->
                                 <a href="#" class="btn btn-primary rounded-pill align-self-start py-2 px-4">Shop Now</a>
                             </div>
                         </div>

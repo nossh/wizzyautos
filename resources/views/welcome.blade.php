@@ -14,8 +14,10 @@
                             <img src="img/motor-engine.png" class="img-fluid w-100" alt="Image">
                         </div>
                         <div class="col-xl-6 carousel-content p-4">
+
                             <h4 class="text-uppercase fw-bold mb-4 wow fadeInRight" data-wow-delay="0.1s"
-                                style="letter-spacing: 3px;">Save Up To A $400</h4>
+                                style="letter-spacing: 3px;">Save Up To A CFA 1,400</h4>
+
                             <h1 class="display-3 text-capitalize mb-4 wow fadeInRight" data-wow-delay="0.3s">Power Your Drive with Reliable Engines</h1>
                             <p class="text-dark wow fadeInRight" data-wow-delay="0.5s">Engines Built for Strength, Tested for Trust</p>
                             <a class="btn btn-primary rounded-pill py-3 px-5 wow fadeInRight" data-wow-delay="0.7s"
@@ -27,8 +29,10 @@
                             <img src="img/motor-tire.png" class="img-fluid w-100" alt="Image">
                         </div>
                         <div class="col-xl-6 carousel-content p-4">
+
                             <h4 class="text-uppercase fw-bold mb-4 wow fadeInRight" data-wow-delay="0.1s"
-                                style="letter-spacing: 3px;">Save Up To A $200</h4>
+                                style="letter-spacing: 3px;">Save Up To A CFA 1,200</h4>
+
                             <h1 class="display-3 text-capitalize mb-4 wow fadeInRight" data-wow-delay="0.3s">Tires That Take You Further</h1>
                             <p class="text-dark wow fadeInRight" data-wow-delay="0.5s">Safety, Durability, Performance, All in One</p>
                             <a class="btn btn-primary rounded-pill py-3 px-5 wow fadeInRight" data-wow-delay="0.7s"
@@ -41,7 +45,7 @@
                 <div class="carousel-header-banner h-100">
                     <img src="img/lady-holding-car-part.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="Confident Black woman holding a car engine part for sale at WizzyAutos">
                     <div class="carousel-banner-offer">
-                        <p class="bg-primary text-white rounded fs-5 py-2 px-4 mb-0 me-3">Save $48.00</p>
+                        <p class="bg-primary text-white rounded fs-5 py-2 px-4 mb-0 me-3">Save CFA 548.00</p>
                         <p class="text-primary fs-5 fw-bold mb-0">Special Offer</p>
                     </div>
                     <div class="carousel-banner">
@@ -176,8 +180,7 @@
                     <div class="col-lg-8 text-end wow fadeInRight" data-wow-delay="0.1s">
                         <ul class="nav nav-pills d-inline-flex text-center mb-5">
                             <li class="nav-item mb-4">
-                                <a class="d-flex mx-2 py-2 bg-light rounded-pill active" data-bs-toggle="pill"
-                                    href="#tab-1">
+                                <a class="d-flex mx-2 py-2 bg-light rounded-pill active" data-bs-toggle="pill" href="#tab-1">
                                     <span class="text-dark" style="width: 130px;">All Products</span>
                                 </a>
                             </li>
@@ -199,974 +202,52 @@
                         </ul>
                     </div>
                 </div>
+
                 <div class="tab-content">
+                    
+                    {{-- TAB 1: ALL PRODUCTS --}}
                     <div id="tab-1" class="tab-pane fade show p-0 active">
                         <div class="row g-4">
-
-                            <div class="col-md-6 col-lg-4 col-xl-3">
-                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.1s">
-                                    <div class="product-item-inner border rounded">
-                                        <div class="product-item-inner-item">
-                                            <img src="img/break-parts.png" class="img-fluid w-100 rounded-top" alt="">
-                                            <div class="product-new">New</div>
-                                            <div class="product-details">
-                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center rounded-bottom p-4">
-                                            <a href="#" class="d-block mb-2">MotorPart</a>
-                                            <a href="#" class="d-block h4">Break Parts</a>
-                                            <del class="me-2 fs-5">$1,250.00</del>
-                                            <span class="text-primary fs-5">$1,050.00</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item-add border border-top-0 rounded-bottom text-center p-4 pt-0">
-                                        <a href="#"
-                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex">
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="d-flex">
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-random"></i></i></a>
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="col-md-6 col-lg-4 col-xl-3">
-                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.3s">
-                                    <div class="product-item-inner border rounded">
-                                        <div class="product-item-inner-item">
-                                            <img src="img/suspension-parts.png" class="img-fluid w-100 rounded-top"
-                                                alt="Image">
-                                            <div class="product-sale">sale</div>
-                                            <div class="product-details">
-                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center rounded-bottom p-4">
-                                            <a href="#" class="d-block mb-2">MotorPart</a>
-                                            <a href="#" class="d-block h4">Suspension Parts</a>
-                                            <del class="me-2 fs-5">$1,250.00</del>
-                                            <span class="text-primary fs-5">$1,050.00</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
-                                        <a href="#"
-                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex">
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="d-flex">
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-random"></i></i></a>
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="col-md-6 col-lg-4 col-xl-3">
-                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.5s">
-                                    <div class="product-item-inner border rounded">
-                                        <div class="product-ite-m-inner-item">
-                                            <img src="img/engine-parts.png" class="img-fluid w-100 rounded-top"
-                                                alt="Image">
-                                            <div class="product-details">
-                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center rounded-bottom p-4">
-                                            <a href="#" class="d-block mb-2">MotorPart</a>
-                                            <a href="#" class="d-block h4">Engine Parts</a>
-                                            <del class="me-2 fs-5">$1,250.00</del>
-                                            <span class="text-primary fs-5">$1,050.00</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
-                                        <a href="#"
-                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex">
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="d-flex">
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-random"></i></i></a>
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="col-md-6 col-lg-4 col-xl-3">
-                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.7s">
-                                    <div class="product-item-inner border rounded">
-                                        <div class="product-item-inner-item">
-                                            <img src="img/engine-oil-and-other-fluids-2.png" class="img-fluid w-100 rounded-top"
-                                                alt="Image">
-                                            <div class="product-new">New</div>
-                                            <div class="product-details">
-                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center rounded-bottom p-4">
-                                            <a href="#" class="d-block mb-2">MotorPart</a>
-                                            <a href="#" class="d-block h4">Engine Oil And Other Fluids</a>
-                                            <del class="me-2 fs-5">$1,250.00</del>
-                                            <span class="text-primary fs-5">$1,050.00</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
-                                        <a href="#"
-                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex">
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="d-flex">
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-random"></i></i></a>
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="col-md-6 col-lg-4 col-xl-3">
-                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.1s">
-                                    <div class="product-item-inner border rounded">
-                                        <div class="product-item-inner-item">
-                                            <img src="img/filters.png" class="img-fluid w-100 rounded-top"
-                                                alt="Image">
-                                            <div class="product-sale">Sale</div>
-                                            <div class="product-details">
-                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center rounded-bottom p-4">
-                                            <a href="#" class="d-block mb-2">MotorPart</a>
-                                            <a href="#" class="d-block h4">Filters</a>
-                                            <del class="me-2 fs-5">$1,250.00</del>
-                                            <span class="text-primary fs-5">$1,050.00</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
-                                        <a href="#"
-                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex">
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="d-flex">
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-random"></i></i></a>
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                            <div class="col-md-6 col-lg-4 col-xl-3">
-                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.3s">
-                                    <div class="product-item-inner border rounded">
-                                        <div class="product-item-inner-item">
-                                            <img src="img/auto-care-products-2.png" class="img-fluid w-100 rounded-top"
-                                                alt="Image">
-                                            <div class="product-details">
-                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center rounded-bottom p-4">
-                                            <a href="#" class="d-block mb-2">MotorPart</a>
-                                            <a href="#" class="d-block h4">Auto Care Products</a>
-                                            <del class="me-2 fs-5">$1,250.00</del>
-                                            <span class="text-primary fs-5">$1,050.00</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
-                                        <a href="#"
-                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex">
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="d-flex">
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-random"></i></i></a>
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <!-- <div class="col-md-6 col-lg-4 col-xl-3">
-                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.5s">
-                                    <div class="product-item-inner border rounded">
-                                        <div class="product-item-inner-item">
-                                            <img src="img/product-9.png" class="img-fluid w-100 rounded-top"
-                                                alt="Image">
-                                            <div class="product-new">New</div>
-                                            <div class="product-details">
-                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center rounded-bottom p-4">
-                                            <a href="#" class="d-block mb-2">MotorPart</a>
-                                            <a href="#" class="d-block h4">Apple iPad Mini <br> G2356</a>
-                                            <del class="me-2 fs-5">$1,250.00</del>
-                                            <span class="text-primary fs-5">$1,050.00</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
-                                        <a href="#"
-                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex">
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="d-flex">
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-random"></i></i></a>
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 col-lg-4 col-xl-3">
-                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.7s">
-                                    <div class="product-item-inner border rounded">
-                                        <div class="product-item-inner-item">
-                                            <img src="img/product-10.png" class="img-fluid w-100 rounded-top" alt="">
-                                            <div class="product-sale">Sale</div>
-                                            <div class="product-details">
-                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center rounded-bottom p-4">
-                                            <a href="#" class="d-block mb-2">MotorPart</a>
-                                            <a href="#" class="d-block h4">Apple iPad Mini <br> G2356</a>
-                                            <del class="me-2 fs-5">$1,250.00</del>
-                                            <span class="text-primary fs-5">$1,050.00</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
-                                        <a href="#"
-                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex">
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="d-flex">
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-random"></i></i></a>
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-
-
+                            @foreach($allProducts as $product)
+                                @include('pages.product-card', ['product' => $product])
+                            @endforeach
                         </div>
                     </div>
 
-
-
+                    {{-- TAB 2: NEW ARRIVALS --}}
                     <div id="tab-2" class="tab-pane fade show p-0">
                         <div class="row g-4">
-
-
-                            <div class="col-md-6 col-lg-4 col-xl-3">
-                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.1s">
-                                    <div class="product-item-inner border rounded">
-                                        <div class="product-item-inner-item">
-                                            <img src="img/break-parts.png" class="img-fluid rounded-top" alt="">
-                                            <div class="product-new">New</div>
-                                            <div class="product-details">
-                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center rounded-bottom p-4">
-                                            <a href="#" class="d-block mb-2">MotorPart</a>
-                                            <a href="#" class="d-block h4">Break Parts</a>
-                                            <del class="me-2 fs-5">$1,250.00</del>
-                                            <span class="text-primary fs-5">$1,050.00</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
-                                        <a href="#"
-                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex">
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="d-flex">
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-random"></i></i></a>
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="col-md-6 col-lg-4 col-xl-3">
-                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.3s">
-                                    <div class="product-item-inner border rounded">
-                                        <div class="product-item-inner-item">
-                                            <img src="img/suspension-parts.png" class="img-fluid w-100 rounded-top" alt="">
-                                            <div class="product-new">New</div>
-                                            <div class="product-details">
-                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center rounded-bottom p-4">
-                                            <a href="#" class="d-block mb-2">MotorPart</a>
-                                            <a href="#" class="d-block h4">Suspension Parts</a>
-                                            <del class="me-2 fs-5">$1,250.00</del>
-                                            <span class="text-primary fs-5">$1,050.00</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
-                                        <a href="#"
-                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex">
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="d-flex">
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-random"></i></i></a>
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="col-md-6 col-lg-4 col-xl-3">
-                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.5s">
-                                    <div class="product-item-inner border rounded">
-                                        <div class="product-item-inner-item">
-                                            <img src="img/engine-parts.png" class="img-fluid w-100 rounded-top" alt="">
-                                            <div class="product-new">New</div>
-                                            <div class="product-details">
-                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center rounded-bottom p-4">
-                                            <a href="#" class="d-block mb-2">MotorPart</a>
-                                            <a href="#" class="d-block h4">Engine Parts</a>
-                                            <del class="me-2 fs-5">$1,250.00</del>
-                                            <span class="text-primary fs-5">$1,050.00</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
-                                        <a href="#"
-                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex">
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="d-flex">
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-random"></i></i></a>
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="col-md-6 col-lg-4 col-xl-3">
-                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.7s">
-                                    <div class="product-item-inner border rounded">
-                                        <div class="product-item-inner-item">
-                                            <img src="img/engine-oil-and-other-fluids-2.png" class="img-fluid w-100 rounded-top"
-                                                alt="Image">
-                                            <div class="product-new">New</div>
-                                            <div class="product-details">
-                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center rounded-bottom p-4">
-                                            <a href="#" class="d-block mb-2">MotorPart</a>
-                                            <a href="#" class="d-block h4">Engine Oil And Other Fluids</a>
-                                            <del class="me-2 fs-5">$1,250.00</del>
-                                            <span class="text-primary fs-5">$1,050.00</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
-                                        <a href="#"
-                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex">
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="d-flex">
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-random"></i></i></a>
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
+                            @foreach($newArrivals as $product)
+                                @include('pages.product-card', ['product' => $product])
+                            @endforeach
                         </div>
                     </div>
 
+                    {{-- TAB 3: FEATURED --}}
                     <div id="tab-3" class="tab-pane fade show p-0">
                         <div class="row g-4">
-
-                            <div class="col-md-6 col-lg-4 col-xl-3">
-                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.1s">
-                                    <div class="product-item-inner border rounded">
-                                        <div class="product-item-inner-item">
-                                            <img src="img/break-parts.png" class="img-fluid w-100 rounded-top" alt="">
-                                            <div class="product-new">New</div>
-                                            <div class="product-details">
-                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center rounded-bottom p-4">
-                                            <a href="#" class="d-block mb-2">MotorPart</a>
-                                            <a href="#" class="d-block h4">Break Parts</a>
-                                            <del class="me-2 fs-5">$1,250.00</del>
-                                            <span class="text-primary fs-5">$1,050.00</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item-add border border-top-0 rounded-bottom text-center p-4 pt-0">
-                                        <a href="#"
-                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex">
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="d-flex">
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-random"></i></i></a>
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>                            
-
-
-
-                            <div class="col-md-6 col-lg-4 col-xl-3">
-                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.3s">
-                                    <div class="product-item-inner border rounded">
-                                        <div class="product-item-inner-item">
-                                            <img src="img/suspension-parts.png" class="img-fluid w-100 rounded-top" alt="">
-                                            <div class="product-new">New</div>
-                                            <div class="product-details">
-                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center rounded-bottom p-4">
-                                            <a href="#" class="d-block mb-2">MotorPart</a>
-                                            <a href="#" class="d-block h4">Suspension Parts</a>
-                                            <del class="me-2 fs-5">$1,250.00</del>
-                                            <span class="text-primary fs-5">$1,050.00</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
-                                        <a href="#"
-                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex">
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="d-flex">
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-random"></i></i></a>
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-
-                            <div class="col-md-6 col-lg-4 col-xl-3">
-                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.1s">
-                                    <div class="product-item-inner border rounded">
-                                        <div class="product-item-inner-item">
-                                            <img src="img/filters.png" class="img-fluid w-100 rounded-top"
-                                                alt="Image">
-                                            <div class="product-sale">Sale</div>
-                                            <div class="product-details">
-                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center rounded-bottom p-4">
-                                            <a href="#" class="d-block mb-2">MotorPart</a>
-                                            <a href="#" class="d-block h4">Filters</a>
-                                            <del class="me-2 fs-5">$1,250.00</del>
-                                            <span class="text-primary fs-5">$1,050.00</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
-                                        <a href="#"
-                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex">
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="d-flex">
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-random"></i></i></a>
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="col-md-6 col-lg-4 col-xl-3">
-                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.3s">
-                                    <div class="product-item-inner border rounded">
-                                        <div class="product-item-inner-item">
-                                            <img src="img/auto-care-products-2.png" class="img-fluid w-100 rounded-top"
-                                                alt="Image">
-                                            <div class="product-details">
-                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center rounded-bottom p-4">
-                                            <a href="#" class="d-block mb-2">MotorPart</a>
-                                            <a href="#" class="d-block h4">Auto Care Products</a>
-                                            <del class="me-2 fs-5">$1,250.00</del>
-                                            <span class="text-primary fs-5">$1,050.00</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
-                                        <a href="#"
-                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex">
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="d-flex">
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-random"></i></i></a>
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-
-
+                            @foreach($featured as $product)
+                                @include('pages.product-card', ['product' => $product])
+                            @endforeach
                         </div>
                     </div>
 
-
-
-                    <!-- <div id="tab-4" class="tab-pane fade show p-0">
+                    {{-- TAB 4: TOP SELLING --}}
+                    <div id="tab-4" class="tab-pane fade show p-0">
                         <div class="row g-4">
-
-
-                            <div class="col-md-6 col-lg-4 col-xl-3">
-                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.1s">
-                                    <div class="product-item-inner border rounded">
-                                        <div class="product-item-inner-item">
-                                            <img src="img/product-14.png" class="img-fluid w-100 rounded-top"
-                                                alt="Image">
-                                            <div class="product-details">
-                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center rounded-bottom p-4">
-                                            <a href="#" class="d-block mb-2">MotorPart</a>
-                                            <a href="#" class="d-block h4">Apple iPad Mini <br> G2356</a>
-                                            <del class="me-2 fs-5">$1,250.00</del>
-                                            <span class="text-primary fs-5">$1,050.00</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
-                                        <a href="#"
-                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex">
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="d-flex">
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-random"></i></i></a>
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="col-md-6 col-lg-4 col-xl-3">
-                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.3s">
-                                    <div class="product-item-inner border rounded">
-                                        <div class="product-item-inner-item">
-                                            <img src="img/product-15.png" class="img-fluid w-100 rounded-top"
-                                                alt="Image">
-                                            <div class="product-details">
-                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center rounded-bottom p-4">
-                                            <a href="#" class="d-block mb-2">MotorPart</a>
-                                            <a href="#" class="d-block h4">Apple iPad Mini <br> G2356</a>
-                                            <del class="me-2 fs-5">$1,250.00</del>
-                                            <span class="text-primary fs-5">$1,050.00</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
-                                        <a href="#"
-                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex">
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="d-flex">
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-random"></i></i></a>
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="col-md-6 col-lg-4 col-xl-3">
-                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.5s">
-                                    <div class="product-item-inner border rounded">
-                                        <div class="product-item-inner-item">
-                                            <img src="img/product-17.png" class="img-fluid w-100 rounded-top"
-                                                alt="Image">
-                                            <div class="product-details">
-                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center rounded-bottom p-4">
-                                            <a href="#" class="d-block mb-2">MotorPart</a>
-                                            <a href="#" class="d-block h4">Apple iPad Mini <br> G2356</a>
-                                            <del class="me-2 fs-5">$1,250.00</del>
-                                            <span class="text-primary fs-5">$1,050.00</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
-                                        <a href="#"
-                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex">
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="d-flex">
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-random"></i></i></a>
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="col-md-6 col-lg-4 col-xl-3">
-                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.7s">
-                                    <div class="product-item-inner border rounded">
-                                        <div class="product-item-inner-item">
-                                            <img src="img/product-16.png" class="img-fluid w-100 rounded-top"
-                                                alt="Image">
-                                            <div class="product-details">
-                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center rounded-bottom p-4">
-                                            <a href="#" class="d-block mb-2">MotorPart</a>
-                                            <a href="#" class="d-block h4">Apple iPad Mini <br> G2356</a>
-                                            <del class="me-2 fs-5">$1,250.00</del>
-                                            <span class="text-primary fs-5">$1,050.00</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
-                                        <a href="#"
-                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
-                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex">
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star text-primary"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="d-flex">
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-random"></i></i></a>
-                                                <a href="#"
-                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                                        class="rounded-circle btn-sm-square border"><i
-                                                            class="fas fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
+                            @foreach($topSelling as $product)
+                                @include('pages.product-card', ['product' => $product])
+                            @endforeach
                         </div>
-                    </div> -->
-
-
+                    </div>
 
                 </div>
             </div>
         </div>
     </div>
-    <!-- Our Products End -->
+<!-- Our Products End -->
+
+
 
     <!-- Product Banner Start -->
     <div class="container-fluid py-5">
@@ -1179,7 +260,7 @@
                             <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center rounded p-4"
                                 style="background: rgba(255, 255, 255, 0.5);">
                                 <h3 class="display-5 text-primary">Ride Smooth. <br> <span>Drive Secure.</span></h3>
-                                <p class="fs-4 text-muted">$899.99</p>
+                                <!-- <p class="fs-4 text-muted">$899.99</p> -->
                                 <a href="#" class="btn btn-primary rounded-pill align-self-start py-2 px-4">Shop Now</a>
                             </div>
                         </div>
@@ -1213,542 +294,181 @@
                 <h1 class="mb-0 display-3 wow fadeInUp" data-wow-delay="0.3s">All Product Items</h1>
             </div>
             <div class="productList-carousel owl-carousel pt-4 wow fadeInUp" data-wow-delay="0.3s">
+
                 <div class="productImg-carousel owl-carousel productList-item">
-                    <div class="productImg-item products-mini-item border">
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/suspension-parts.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+
+                    @foreach($allProducts as $product)
+                        <div class="productImg-item products-mini-item border">
+                            <div class="row g-0">
+                                <div class="col-5">
+                                    <div class="products-mini-img border-end h-100">
+                                        <img src="{{ asset('storage/' . $product->main_image) }}" class="img-fluid w-100 h-100" alt="{{ $product->name }}">
+                                        <div class="products-mini-icon rounded-circle bg-primary">
+                                            <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <div class="products-mini-content p-3">
+                                        <a href="#" class="d-block mb-2">MotorPart</a>
+                                        <a href="#" class="d-block h4">{{ $product->name }}</a>
+                                        <!-- <del class="me-2 fs-5">$1,250.00</del>
+                                        <span class="text-primary fs-5">$1,050.00</span> -->
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Suspension Parts</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
-                                </div>
+                            <div class="products-mini-add border p-3">
+                                <a href="tel:+2250789199780" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                        class="fas fa-shopping-cart me-2"></i> Call us now</a>
+
+                                <!-- <div class="d-flex">
+                                    <a href="#"
+                                        class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                            class="rounded-circle btn-sm-square border"><i
+                                                class="fas fa-random"></i></i></a>
+                                    <a href="#"
+                                        class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                            class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                                </div> -->
+
                             </div>
                         </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="productImg-item products-mini-item border">
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/suspension-parts.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Suspension Parts</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="productImg-item products-mini-item border">
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/engine-oil-and-other-fluids-2.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Engine Oil And Other Fluids</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="productImg-item products-mini-item border">
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/filters.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Filters</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
+
                 </div>
+
+
                 <div class="productImg-carousel owl-carousel productList-item">
-                    <div class="productImg-item products-mini-item border">
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/auto-care-products-2.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+
+                    @foreach($newArrivals as $product)
+                        <div class="productImg-item products-mini-item border">
+                            <div class="row g-0">
+                                <div class="col-5">
+                                    <div class="products-mini-img border-end h-100">
+                                        <img src="{{ asset('storage/' . $product->main_image) }}" class="img-fluid w-100 h-100" alt="{{ $product->name }}">
+                                        <div class="products-mini-icon rounded-circle bg-primary">
+                                            <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <div class="products-mini-content p-3">
+                                        <a href="#" class="d-block mb-2">MotorPart</a>
+                                        <a href="#" class="d-block h4">{{ $product->name }}</a>
+                                        <!-- <del class="me-2 fs-5">$1,250.00</del>
+                                        <span class="text-primary fs-5">$1,050.00</span> -->
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Auto Care Products</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
+                            <div class="products-mini-add border p-3">
+                                <a href="tel:+2250789199780" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                        class="fas fa-shopping-cart me-2"></i> Call us now</a>
+
+                                <!-- <div class="d-flex">
+                                    <a href="#"
+                                        class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                            class="rounded-circle btn-sm-square border"><i
+                                                class="fas fa-random"></i></i></a>
+                                    <a href="#"
+                                        class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                            class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                                </div> -->
+
+                            </div>
+                        </div>
+                    @endforeach
+
+                </div>
+
+
+                <div class="productImg-carousel owl-carousel productList-item">
+
+                    @foreach($featured as $product)
+                        <div class="productImg-item products-mini-item border">
+                            <div class="row g-0">
+                                <div class="col-5">
+                                    <div class="products-mini-img border-end h-100">
+                                        <img src="{{ asset('storage/' . $product->main_image) }}" class="img-fluid w-100 h-100" alt="{{ $product->name }}">
+                                        <div class="products-mini-icon rounded-circle bg-primary">
+                                            <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <!-- <div class="productImg-item products-mini-item border">
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/product-9.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                <div class="col-7">
+                                    <div class="products-mini-content p-3">
+                                        <a href="#" class="d-block mb-2">MotorPart</a>
+                                        <a href="#" class="d-block h4">{{ $product->name }}</a>
+                                        <!-- <del class="me-2 fs-5">$1,250.00</del>
+                                        <span class="text-primary fs-5">$1,050.00</span> -->
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Apple iPad Mini <br> G2356</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
+                            <div class="products-mini-add border p-3">
+                                <a href="tel:+2250789199780" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                        class="fas fa-shopping-cart me-2"></i> Call us now</a>
+
+                                <!-- <div class="d-flex">
+                                    <a href="#"
+                                        class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                            class="rounded-circle btn-sm-square border"><i
+                                                class="fas fa-random"></i></i></a>
+                                    <a href="#"
+                                        class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                            class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                                </div> -->
+
+                            </div>
+                        </div>
+                    @endforeach
+
+                </div>
+
+
+                <div class="productImg-carousel owl-carousel productList-item">
+
+                    @foreach($topSelling as $product)
+                        <div class="productImg-item products-mini-item border">
+                            <div class="row g-0">
+                                <div class="col-5">
+                                    <div class="products-mini-img border-end h-100">
+                                        <img src="{{ asset('storage/' . $product->main_image) }}" class="img-fluid w-100 h-100" alt="{{ $product->name }}">
+                                        <div class="products-mini-icon rounded-circle bg-primary">
+                                            <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="productImg-item products-mini-item border">
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/product-10.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                <div class="col-7">
+                                    <div class="products-mini-content p-3">
+                                        <a href="#" class="d-block mb-2">MotorPart</a>
+                                        <a href="#" class="d-block h4">{{ $product->name }}</a>
+                                        <!-- <del class="me-2 fs-5">$1,250.00</del>
+                                        <span class="text-primary fs-5">$1,050.00</span> -->
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Apple iPad Mini <br> G2356</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                            <div class="products-mini-add border p-3">
+                                <a href="tel:+2250789199780" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                        class="fas fa-shopping-cart me-2"></i> Call us now</a>
 
+                                <!-- <div class="d-flex">
+                                    <a href="#"
+                                        class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                            class="rounded-circle btn-sm-square border"><i
+                                                class="fas fa-random"></i></i></a>
+                                    <a href="#"
+                                        class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                            class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                                </div> -->
 
-                    <div class="productImg-item products-mini-item border">
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/product-11.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Apple iPad Mini <br> G2356</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
-                                </div>
                             </div>
                         </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div> -->
-
+                    @endforeach
 
                 </div>
 
 
 
 
-               <!--  <div class="productImg-carousel owl-carousel productList-item">
-                    <div class="productImg-item products-mini-item border">    
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/product-12.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Apple iPad Mini <br> G2356</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="productImg-item products-mini-item border">
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/product-13.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Apple iPad Mini <br> G2356</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="productImg-item products-mini-item border">
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/product-14.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Apple iPad Mini <br> G2356</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="productImg-item products-mini-item border">
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/product-15.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Apple iPad Mini <br> G2356</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div> -->
-
-
-
-
-                <div class="productImg-carousel owl-carousel productList-item">
-
-
-                    <!-- <div class="productImg-item products-mini-item border">
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/product-16.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Apple iPad Mini <br> G2356</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div> -->
-
-
-
-                    <!-- <div class="productImg-item products-mini-item border">
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/product-17.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Apple iPad Mini <br> G2356</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div> -->
-
-
-
-
-                    <div class="productImg-item products-mini-item border">
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/break-parts.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Break Parts</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -1763,218 +483,56 @@
                 <p class="mb-0 wow fadeInUp" data-wow-delay="0.2s">Top-quality auto parts our customers love most, reliable, durable, and built to keep you moving.</p>
             </div>
             <div class="row g-4">
-                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="products-mini-item border">
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/break-parts.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+
+                @foreach($topSelling as $product)
+                    
+
+                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="products-mini-item border">
+
+                            <div class="row g-0">
+                                <div class="col-5">
+                                    <div class="products-mini-img border-end h-100">
+                                        <img src="{{ asset('storage/' . $product->main_image) }}" class="img-fluid w-100 h-100" alt="{{ $product->name }}">
+                                        <div class="products-mini-icon rounded-circle bg-primary">
+                                            <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <div class="products-mini-content p-3">
+                                        <a href="#" class="d-block mb-2">MotorPart</a>
+                                        <a href="#" class="d-block h4">{{ $product->name }}</a>
+                                        <!-- <del class="me-2 fs-5">$1,250.00</del>
+                                        <span class="text-primary fs-5">$1,050.00</span> -->
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Break Parts</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="products-mini-item border">
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/suspension-parts.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Suspension Parts</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="products-mini-item border">
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/engine-parts.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Engine Parts</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="products-mini-item border">
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/engine-oil-and-other-fluids-2.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Engine Oil And Other Fluids</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="products-mini-item border">
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/filters.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Filters</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+                            <div class="products-mini-add border p-3">
+                                <a href="tel:+2250789199780" class="btn btn-primary border-secondary rounded-pill py-2 px-4">
+                                    <i class="fas fa-phone me-2"></i> Call us now
+                                </a>
 
 
-                <!-- <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="products-mini-item border">
-                        <div class="row g-0">
-                            <div class="col-5">
-                                <div class="products-mini-img border-end h-100">
-                                    <img src="img/product-11.png" class="img-fluid w-100 h-100" alt="Image">
-                                    <div class="products-mini-icon rounded-circle bg-primary">
-                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
-                                    </div>
+                                <div class="d-flex">
+                                    <a href="#"
+                                        class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                            class="rounded-circle btn-sm-square border"><i
+                                                class="fas fa-random"></i></i></a>
+                                    <a href="#"
+                                        class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                            class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
                                 </div>
-                            </div>
-                            <div class="col-7">
-                                <div class="products-mini-content p-3">
-                                    <a href="#" class="d-block mb-2">MotorPart</a>
-                                    <a href="#" class="d-block h4">Apple iPad Mini <br> G2356</a>
-                                    <del class="me-2 fs-5">$1,250.00</del>
-                                    <span class="text-primary fs-5">$1,050.00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="products-mini-add border p-3">
-                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
-                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
-                            <div class="d-flex">
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
-                                        class="rounded-circle btn-sm-square border"><i
-                                            class="fas fa-random"></i></i></a>
-                                <a href="#"
-                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
-                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+
                             </div>
                         </div>
                     </div>
-                </div> -->
+
+                
+                @endforeach
+
+
 
 
             </div>
