@@ -404,19 +404,37 @@
                             @endforeach
 
 
-
+                            @if ($products->hasPages())
                                 <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
                                     <div class="pagination d-flex justify-content-center mt-5">
-                                        <a href="#" class="rounded">&laquo;</a>
-                                        <a href="#" class="active rounded">1</a>
-                                        <a href="#" class="rounded">2</a>
-                                        <a href="#" class="rounded">3</a>
-                                        <a href="#" class="rounded">4</a>
-                                        <a href="#" class="rounded">5</a>
-                                        <a href="#" class="rounded">6</a>
-                                        <a href="#" class="rounded">&raquo;</a>
+                                        
+                                        {{-- Previous Page Link --}}
+                                        @if ($products->onFirstPage())
+                                            <a class="rounded rounded-white">&laquo;</a>
+                                        @else
+                                            <a href="{{ $products->previousPageUrl() }}" class="rounded">&laquo;</a>
+                                        @endif
+
+                                        {{-- Page Numbers --}}
+                                        @foreach ($products->getUrlRange(1, $products->lastPage()) as $page => $url)
+                                            @if ($page == $products->currentPage())
+                                                <a href="#" class="active rounded">{{ $page }}</a>
+                                            @else
+                                                <a href="{{ $url }}" class="rounded">{{ $page }}</a>
+                                            @endif
+                                        @endforeach
+
+                                        {{-- Next Page Link --}}
+                                        @if ($products->hasMorePages())
+                                            <a href="{{ $products->nextPageUrl() }}" class="rounded">&raquo;</a>
+                                        @else
+                                            <a class="rounded rounded-white">&raquo;</a>
+                                        @endif
                                     </div>
                                 </div>
+                            @endif
+
+
                             </div>
                         </div>
 
@@ -471,20 +489,42 @@
                                 </div>
                             @endforeach
 
+                            <div class="d-flex justify-content-center mt-4">
+                                {{ $products->links() }}
+                            </div>
 
 
-                                <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
-                                    <div class="pagination d-flex justify-content-center mt-5">
-                                        <a href="#" class="rounded">&laquo;</a>
-                                        <a href="#" class="active rounded">1</a>
-                                        <a href="#" class="rounded">2</a>
-                                        <a href="#" class="rounded">3</a>
-                                        <a href="#" class="rounded">4</a>
-                                        <a href="#" class="rounded">5</a>
-                                        <a href="#" class="rounded">6</a>
-                                        <a href="#" class="rounded">&raquo;</a>
+
+                                @if ($products->hasPages())
+                                    <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                                        <div class="pagination d-flex justify-content-center mt-5">
+                                            
+                                            {{-- Previous Page Link --}}
+                                            @if ($products->onFirstPage())
+                                                <a class="rounded rounded-white">&laquo;</a>
+                                            @else
+                                                <a href="{{ $products->previousPageUrl() }}" class="rounded">&laquo;</a>
+                                            @endif
+
+                                            {{-- Page Numbers --}}
+                                            @foreach ($products->getUrlRange(1, $products->lastPage()) as $page => $url)
+                                                @if ($page == $products->currentPage())
+                                                    <a href="#" class="active rounded">{{ $page }}</a>
+                                                @else
+                                                    <a href="{{ $url }}" class="rounded">{{ $page }}</a>
+                                                @endif
+                                            @endforeach
+
+                                            {{-- Next Page Link --}}
+                                            @if ($products->hasMorePages())
+                                                <a href="{{ $products->nextPageUrl() }}" class="rounded">&raquo;</a>
+                                            @else
+                                                <a class="rounded rounded-white">&raquo;</a>
+                                            @endif
+                                        </div>
                                     </div>
-                                </div>
+                                @endif
+
                             </div>
                         </div>
                     </div>
