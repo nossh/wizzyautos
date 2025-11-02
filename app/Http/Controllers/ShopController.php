@@ -9,7 +9,7 @@ class ShopController extends Controller
 {
     public function index()
     {
-        $products = Product::paginate(12);
+        $products = Product::orderBy('created_at', 'desc')->paginate(12);
         $featuredProducts = Product::where('is_featured', true)
         ->take(3)
         ->get();

@@ -463,16 +463,23 @@
                                                 <div class="products-mini-content p-3">
                                                     <a href="#" class="d-block mb-2">{{ $product->category }}</a>
                                                     <a href="{{ route('product-detail', $product->id) }}" class="d-block h4">{{ $product->name }}</a>
-                                                    <del class="me-2 fs-5">${{ number_format($product->price, 2) }}</del>
-                                                    <span class="text-primary fs-5">${{ number_format($product->discount_price, 2) }}</span>
+                                                    <!-- <del class="me-2 fs-5">${{ number_format($product->price, 2) }}</del>
+                                                    <span class="text-primary fs-5">${{ number_format($product->discount_price, 2) }}</span> -->
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="products-mini-add border p-3">
-                                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4">
+
+                                            <!-- <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4">
                                                 <i class="fas fa-shopping-cart me-2"></i> Add To Cart
+                                            </a> -->
+
+                                             <a href="tel:+2250789199780" class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4">
+                                                <i class="fas fa-phone me-2"></i>Call us now
                                             </a>
-                                            <div class="d-flex">
+
+
+                                            <!-- <div class="d-flex">
                                                 <a href="#" class="text-primary d-flex align-items-center justify-content-center me-3">
                                                     <span class="rounded-circle btn-sm-square border">
                                                         <i class="fas fa-random"></i>
@@ -483,7 +490,9 @@
                                                         <i class="fas fa-heart"></i>
                                                     </span>
                                                 </a>
-                                            </div>
+                                            </div> -->
+
+
                                         </div>
                                     </div>
                                 </div>
